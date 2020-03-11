@@ -15,8 +15,8 @@ class Form extends React.Component {
           <input
             type="text"
             name="lastName"
-            onChange={event => this.props.handleChange(event)}/>
-            // value={this.props.formData.lastName} />
+            onChange={event => this.props.handleChange(event)}
+            value={this.props.formData.lastName} />
 
           {/* <input
             type="text"
